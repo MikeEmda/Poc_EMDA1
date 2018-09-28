@@ -1,0 +1,20 @@
+,accuracy,formatted_address,google_place_id,input_string,latitude,longitude,number_of_results,postcode,status,type
+0,GEOMETRIC_CENTER,"High St, London N8 7NX, UK",ChIJZ1-ZHugbdkgRu6aRZX7puZY,"High Street, London",51.5877493,-0.1175289,8,N8 7NX,OK,route
+1,GEOMETRIC_CENTER,"London Rd, Forest Hill, London SE23 3TY, UK",ChIJk0vATdADdkgR4QNh9ZEgDUw,"London Street, London",51.4405393,-0.0593795,5,SE23 3TY,OK,route
+2,GEOMETRIC_CENTER,"St James's St, London, UK",ChIJHRUouNcEdkgRpnlfAEOD7rc,"Street Street, London",51.5064275,-0.1391958,1,,OK,route
+3,GEOMETRIC_CENTER,"West Hill, London SW18 1RB, UK",ChIJRW97sGoPdkgRPxWopmUrHPA,"West Street, London",51.4535142,-0.2120705,1,SW18 1RB,OK,route
+4,GEOMETRIC_CENTER,"London Rd, Forest Hill, London SE23 3TY, UK",ChIJk0vATdADdkgR4QNh9ZEgDUw,"London Street, London",51.4405393,-0.0593795,5,SE23 3TY,OK,route
+5,GEOMETRIC_CENTER,"North St, London SW4 0HD, UK",ChIJw2dBkKwFdkgRWOZHPLL92Fo,"North Street, London",51.4668325,-0.1427802,1,SW4 0HD,OK,route
+6,ROOFTOP,"31 Old Broad St, London EC2N 1HT, UK",ChIJbX6eOa0cdkgRicHq3e_r3X4,"Broad Street, London",51.5155779,-0.0837568,1,EC2N 1HT,OK,"establishment,hospital,point_of_interest"
+7,GEOMETRIC_CENTER,"London Rd, Forest Hill, London SE23 3TY, UK",ChIJk0vATdADdkgR4QNh9ZEgDUw,"London Street, London",51.4405393,-0.0593795,5,SE23 3TY,OK,route
+8,GEOMETRIC_CENTER,"South St, Isleworth TW7 7AA, UK",ChIJUdWHtlUMdkgR87zrdFVDXDo,"South Street, London",51.4685259,-0.3263982,1,TW7 7AA,OK,route
+9,GEOMETRIC_CENTER,"Streatham St, Bloomsbury, London WC1A 1JB, UK",ChIJKTga9zIbdkgRuH0nmjjbrno,"Streatham Street, London",51.517296,-0.1273235,1,WC1A 1JB,OK,route
+10,GEOMETRIC_CENTER,"Greenwich S St, London SE10 8UN, UK",ChIJpyTDWIgCdkgRpVsfHtoIpBI,"Greenwich Street, London",51.4753406,-0.0131418,1,SE10 8UN,OK,route
+11,GEOMETRIC_CENTER,"Pearce St, East London, 5241, South Africa",ChIJd8p9WS3gZh4RB_pz04Xc36s,"Pearce Street, London",-32.9932504,27.9135331,1,5241,OK,route
+12,GEOMETRIC_CENTER,"Young St, Kensington, London W8 5EH, UK",ChIJ0xOITPYPdkgRml2fOCprwfQ,"Young Street, London",51.5016313,-0.1898911,1,W8 5EH,OK,route
+13,GEOMETRIC_CENTER,"Grimsby St, London E2 6ES, UK",ChIJdXIP17ccdkgRD7GSOnLJIzU,"Grimsby Street, London",51.5232057,-0.0705274,1,E2 6ES,OK,route
+14,GEOMETRIC_CENTER,"Donald Rd, London E13 0QF, UK",ChIJdV4QlsCn2EcRDkZjBtCAaHY,"Donald Street, London",51.5352161,0.0278005,1,E13 0QF,OK,route
+15,GEOMETRIC_CENTER,"May St, Hammersmith, London W14 9XT, UK",ChIJkxS5sZYPdkgRE1ty2Us-kJs,"May Street, London",51.4876029,-0.2074774,1,W14 9XT,OK,route
+16,GEOMETRIC_CENTER,"Theresa Rd, Hammersmith, London W6, UK",ChIJ3ZV_GEoOdkgRxxWbdsiGge8,"Theresa Street, London",51.4924797,-0.2402834,1,W6,OK,route
+17,GEOMETRIC_CENTER,"Trump St, London EC2V 8DP, UK",ChIJWV3HSFUDdkgRhLD2D4wEsiw,"Trump Street, London",51.5144127,-0.0927844,1,EC2V 8DP,OK,route
+18,GEOMETRIC_CENTER,"Robinson St, Chelsea, London SW3 4AA, UK",ChIJD7muMm0FdkgRFjmxrW6LlK0,"Robinson Street, London",51.4853089,-0.1643171,1,SW3 4AA,OK,route

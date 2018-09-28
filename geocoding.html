@@ -1,0 +1,51 @@
+<html>
+<head>
+  
+  <title>Google Maps Multiple Markers</title>
+  <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcQlwTnrKhgtV5CJ2g21EKdOv_JgqbgpY&callback=initMap"
+  type="text/javascript"></script>
+</head>
+<body>
+  <div id="map" style="height: 100%; width: 100%;">
+</div>
+<script type="text/javascript">
+    var locations = [
+      ["Dorset Street, London",51.5194127,-0.1565743,1,8,"Rape"],
+      ["Finsbury Street, London",51.5201581,-0.0887927,2,3,"Knifed"],
+      ["London Street, London",51.4405393,-0.0593795,3,3,"Knifed"],
+      ["North Street, London",51.4939263,-0.1406489,4,3,"Knifed"],
+      ["Park Street, London",51.5109406,-0.1550038,5,3,"Knifed"],
+      ["Hospital Street, London",43.000852,-81.254603,6,3,"Knifed"],
+      ["Salisbury Street, London",51.5232444,-0.1697018,7,1,"Violence"],
+      ["Crawley Street, London",51.5947751,-0.0932395,8,11,"Murder"]
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 10,
+      center: new google.maps.LatLng(51.51, -0.15),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) { 
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map,
+        icon: 'icon' + locations[i][4].toString() + '.png',
+        animation: google.maps.Animation.DROP,
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent("<p>" + locations[i][0] +"<br>"+ locations[i][5]+"</p>");
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+</body>
+</html>
