@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Google Maps JavaScript API v3 Example: Simple Icons</title>
+    <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript">
+      function initialize() 
+      {
+      var myOptions = {
+        zoom: 4,
+        center: new google.maps.LatLng(-33, 151),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
+      var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+      var inputs = document.getElementsByTagName("input");
+      
+      for(var i = 0; i < inputs.length; i++)
+      {
+        var latitudeAndLongitude = inputs[i].value.split(",");
+        var latitude = latitudeAndLongitude[0];
+        var longtitude = latitudeAndLongitude[1];
+        
+        var myLatLng = new google.maps.LatLng(latitude, longtitude);
+        
+        var image = "http://code.google.com/intl/sv-SE/apis/maps/documentation/javascript/examples/images/beachflag.png";
+        
+        var beachMarker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          icon: image
+        });
+      }
+      }
+    </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map_canvas"></div>
+    <input type="hidden" value="-33.890542,151.274856" />
+    <input type="hidden" value="-31.890542,151.274856" />
+  </body>
+</html>
